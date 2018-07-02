@@ -1,6 +1,6 @@
-package Observer;
+package observer;
 
-import Observer.Observers.AirQualityObserver;
+import observer.observers.AirQualityObserver;
 
 import java.util.ArrayList;
 import java.util.List;

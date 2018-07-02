@@ -1,6 +1,6 @@
-package Observer.Observers;
+package observer.observers;
 
-import Observer.AirQualityIndex;
+import observer.AirQualityIndex;
 
 public class NewspaperEditor implements AirQualityObserver {
     @Override

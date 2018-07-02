@@ -1,14 +1,13 @@
-package Observer;
+package observer;
 
-import Observer.Observers.Mother;
-import Observer.Observers.NewspaperEditor;
-import Observer.Observers.SchoolDirector;
+import observer.observers.Mother;
+import observer.observers.NewspaperEditor;
+import observer.observers.SchoolDirector;
 
 public class Main {
     public static void main(String[] args) {
 
         AirQualityService airQualityService = new AirQualityService();
-
 
         Mother Grazyna = new Mother();
         Mother Krystyna = new Mother();
